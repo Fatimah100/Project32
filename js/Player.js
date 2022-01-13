@@ -21,14 +21,14 @@ class Player {
     push();
     textSize(20);
     fill("white");
-    text("player", width - 1000, 40);
+    text("player", 280, 40);
 
     fill(this.life1);
-    rect(width - 960, 50, 70, 30);
+    rect(180, 50, 70, 30);
     fill(this.life2);
-    rect(width - 1030, 50, 70, 30);
+    rect(250, 50, 70, 30);
     fill(this.life3);
-    rect(width - 1100, 50, 70, 30);
+    rect(320, 50, 70, 30);
    
     pop();
   }
